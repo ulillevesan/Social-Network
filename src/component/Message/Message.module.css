@@ -1,0 +1,38 @@
+.dialogs{
+display: flex;
+justify-content: space-around;
+font-size: 20px;
+margin-top: 5px;
+padding: 100px;
+background-color:#343944;
+}
+.DialogItem a{
+    color:white;
+    text-decoration: none;
+}
+.DialogItem a.active{
+color:gold;
+}
+.Dialog{
+margin-right: 50px;
+}
+.messages{
+margin-left: 50px;
+}
+.formMessage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.messageText textarea{
+    min-width: 90px;
+    min-height: 55px;
+}
+.messageEnter button{
+min-width: 90px;
+padding:20px;
+margin-top: 1px;
+}

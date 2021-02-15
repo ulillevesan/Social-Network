@@ -1,0 +1,70 @@
+.Posts{
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:#343944;
+    min-width: 560px;
+    margin-top: 20px;
+    margin-left: 40px;
+  
+  }
+  .Img{
+    max-width: 450px;
+    max-height: 450px;
+  }
+  .Tittle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .Text{
+    font-size: 17px;
+    text-align: start;
+    margin-left: 15px;
+    min-width: 560px;
+
+  }
+  .FlexPost{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+.Ask{
+    background-color:#343944;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 40px;
+    min-height: 140px;
+}
+.formPost{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.tittle{
+margin-top: 10px;
+background: #505868;
+   box-shadow: 0 0 0 2px #291810, 0 0 0 3px #505868;
+}
+.text{
+    margin-top: 10px;
+    min-height: 40px;
+    background: #505868;
+   box-shadow: 0 0 0 2px #291810, 0 0 0 3px #505868;
+}
+.btnPost{
+    margin-top: 10px;
+    text-align: center;
+    min-width: 80px;
+    background:#505868;
+   box-shadow: 0 0 0 1px #291810, 0 0 0 3px #505868;
+    
+}
